@@ -57,8 +57,12 @@ offset++
 son.innerHTML=offset
 }
 function dec(){
-  offset--
-  son.innerHTML=offset
+  if (offset> 0) {
+    offset--
+    son.innerHTML=offset
+    
+  }
+
 }
 function rest(){
   offset=0
