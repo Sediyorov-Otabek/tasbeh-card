@@ -1,0 +1,40 @@
+.cards{
+    width: 100%;
+    background: gainsboro;
+}
+.cards__wrap {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+//   border: 1px solid red;
+  .cards__card {
+    max-width: 300px;
+    .cards__img {
+      img {
+        width: 100%;
+      }
+      width: 100%;
+    //   border: 1px solid red;
+    }
+    .cards__text {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      gap: 8px;
+      .cards__heart {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+        img {
+          &:hover {
+            background: red;
+          }
+        }
+      }
+    }
+  }
+}

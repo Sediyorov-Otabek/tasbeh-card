@@ -1,0 +1,31 @@
+.tasbeh{
+    width: 100%;
+    background: black;
+    padding: 50px 0;
+}
+.tasbeh__wraper{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    b{
+        font-size: 30px;
+        color: aqua;
+    }
+    p{
+        font-size: 40px;
+        color: greenyellow;
+    }
+    .tasbeh__btn{
+        button{
+            background: inherit;
+            color: aliceblue;
+            padding: 2px;
+            &:hover{
+                background: rgba(253, 245, 230, 0.158);
+            }
+        }
+    }
+}
